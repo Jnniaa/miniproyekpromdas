@@ -5,7 +5,6 @@ int main() {
     int S = 0, N = 0;
     int T = 0, F = 0;
     int J = 0, P = 0;
-
     char jawaban;
     int i;
 
@@ -23,6 +22,7 @@ int main() {
    // Kategori yang sesuai dengan pertanyaan: // 0 = E/I, 1 = S/N, 2 = T/F, 3 = J/P
     int kategori[8] = {0, 0, 1, 1, 2, 2, 3, 3};
 
+    // Membuat perulangan jika jawaban yang diterima tidak valid
     for (i = 0; i < 8; i++) {
         do {
             printf("%s", pertanyaan[i]);
@@ -31,11 +31,12 @@ int main() {
                 printf("Pilih salah satu jawaban!\n");
             }
         } while (jawaban != 'A' && jawaban != 'B' && jawaban != 'a' && jawaban != 'b');
-
+        
+    // Mengubah huruf kecil menjadi huruf besar
         if (jawaban >= 'a') {
             jawaban -= 32;
         }
-
+    // Menghitung nilai berdasarkan jawaban dari pengguna 
         switch (kategori[i]) {
             case 0: // E/I
                 if (jawaban == 'A') E++;
@@ -55,7 +56,7 @@ int main() {
                 break;
         }
     }
-
+// Menampilkan hasil 
     printf("\nTipe MBTI kamu adalah: ");
     printf("%c", (E >= I) ? 'E' : 'I');
     printf("%c", (S >= N) ? 'S' : 'N');
