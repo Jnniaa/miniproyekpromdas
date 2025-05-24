@@ -1,27 +1,24 @@
 # Mini Proyek - Coding untuk Kakak Tingkat
 ## Identitas Mahasiswa
-- Nama: [Nama Anda]
-- NIM: [Nomor Induk Mahasiswa]
-- Kelas: [Nama kelas]
+- Nama: Jennia Hanarum
+- NIM: 2405908
+- Kelas: 2B
 ## Identitas Kakak Tingkat
-- Nama: [Nama kakak tingkat]
-- Angkatan: [Angkatan kakak]
-- Program Studi: [Program studi kakak]
+- Nama: Rina Agustin
+- Angkatan: 2023
+- Program Studi: Pendidikan Sistem dan Teknologi Informasi
 ## Permintaan Program
-> "[Tuliskan permintaan dari kakak tingkat secara ringkas.]"
-Contoh:
-> "Kakak ingin dibuatkan program kalkulator IPK sederhana."
+> "Kakak ingin dibuatkan program tes kepribadian sederhana."
 ## Penjelasan Program
 - Bahasa pemrograman yang digunakan: C
 - Fitur utama:
-- Input data nilai
-- Perhitungan otomatis
-- Output hasil IPK
+  Input data kebiasaan pengguna
+  Perhitungan otomatis
+  Output hasil tipe kepribadian 
 - Konsep yang digunakan:
-- Input/output
-- Variabel
-- If-else
-- Loop (perulangan)
-- Fungsi
-- Array
-## Link Video Demo
+  Input data jawaban pengguna dan output hasil tipe kepribadian.
+  Variabel E, I, S, N, F, T, J, P, i, 
+  If-else untuk menentukan tipe kepribadian. 
+  Loop (perulangan) jika jawaban yang dimasukkan pengguna tidak valid. 
+  Array, penyimpanan pertanyaan. 
+## Link Video Demo : https://youtu.be/4CJi-HCulrQ?si=KxQvhDxnwTHpA3mW
