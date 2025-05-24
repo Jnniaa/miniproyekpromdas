@@ -12,9 +12,9 @@
 ## Penjelasan Program
 - Bahasa pemrograman yang digunakan: C
 - Fitur utama:
-  Input data kebiasaan pengguna
-  Perhitungan otomatis
-  Output hasil tipe kepribadian 
+  Input data kebiasaan pengguna\n
+  Perhitungan otomatis\n
+  Output hasil tipe kepribadian\n
 - Konsep yang digunakan:
   Input data jawaban pengguna dan output hasil tipe kepribadian.
   Variabel E, I, S, N, F, T, J, P, i, 
